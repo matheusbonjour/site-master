@@ -13,11 +13,16 @@ const Layout: React.FC<{
           MASTER - Meteorologia Aplicada a Sistemas de Tempo Regionais
         </title>
       </Head>
-      <Topbar />
-      <Box component="main" sx={{ flexGrow: 1, p: 3, pt: 10, display: "flex" }}>
-        {children}
+      <Box>
+        <Topbar />
+        <Box
+          component="main"
+          sx={{ flexGrow: 1, p: 3, pt: 10, display: "flex" }}
+        >
+          {children}
+        </Box>
+        <Footer />
       </Box>
-      <Footer />
     </>
   );
 };

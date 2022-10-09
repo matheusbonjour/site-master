@@ -48,7 +48,7 @@ const logos = [
 
 const HomePage: React.FC = () => {
   return (
-    <Stack spacing={5}>
+    <Stack spacing={5} sx={{ width: "100%" }}>
       <Box sx={{ display: "flex", justifyContent: "center" }}>
         <Box
           sx={{ position: "relative", width: `${logoRatio}vh`, height: "30vh" }}

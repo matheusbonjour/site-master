@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
+import HomePage from "../features/HomePage";
 
 const Home: NextPage = () => {
-  return <>sitezin top</>;
+  return <HomePage />;
 };
 
 export default Home;

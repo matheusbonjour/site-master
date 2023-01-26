@@ -5,9 +5,9 @@ import Topbar from "./src/layout/Topbar";
 import SwipeableTemporaryDrawer from "./src/layout/Sidebar"; 
 import Drawer from "@mui/material";
 import PersistentDrawerLeft from "./src/layout/Side2"
-import Side3 from "./Side3"
+import Side2 from "./src/layout/Side3"
 import { ProSidebarProvider } from 'react-pro-sidebar';
-import Sidepro from "./SidePro";
+
 
 const Layout: React.FC<{
   children: React.ReactNode;
@@ -22,8 +22,8 @@ const Layout: React.FC<{
       </Head>
       <Box>
         <ProSidebarProvider>
-          <Sidepro />
-          <Box
+          <Side2 />
+                    <Box
             component="main"
             sx={{ flexGrow: 1, p: 3, pt: 10, display: "flex" }}
           >

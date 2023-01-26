@@ -5,7 +5,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <>
       <Layout>
-        <Component {...pageProps} />
+
       </Layout>
     </>
   );

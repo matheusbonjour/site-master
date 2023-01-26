@@ -2,6 +2,8 @@ import { Box } from "@mui/material";
 import Head from "next/head";
 import Footer from "./Footer";
 import Topbar from "./Topbar";
+import SwipeableTemporaryDrawer from "./Sidebar"; 
+
 const Layout: React.FC<{
   children: React.ReactNode;
 }> = ({ children }) => {
@@ -14,7 +16,7 @@ const Layout: React.FC<{
         </title>
       </Head>
       <Box>
-        <Topbar />
+        <SwipeableTemporaryDrawer />
         <Box
           component="main"
           sx={{ flexGrow: 1, p: 3, pt: 10, display: "flex" }}
